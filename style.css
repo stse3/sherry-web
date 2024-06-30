@@ -1,0 +1,104 @@
+body{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items:stretch;
+    font-family: 'Playfair Display';
+    margin:0;
+    overflow:hidden;
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex:1 1 auto;
+    padding:10px;
+    margin:0;
+    background-color: #FCCABA;
+    padding: 8px;
+    flex-basis:0;
+    margin: 0;
+    
+
+}
+.links{
+    margin-right: 10px;
+}
+.img-logo{
+    width: 50px;
+    height: 48px;
+    border: 1.5px dotted #18b28b;
+    border-radius: 20%;
+    margin:0;
+    background-color:#e3ede6;
+}
+.title-logo{
+    font-weight: bold;
+    font-size: 20px;
+    color:#de350b; 
+    display:flex;
+    flex:1;
+    margin: 10px 15px;
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap:nowrap;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #06736ff1;
+    font-size:15px;
+
+}
+.intro{
+    display: flex;
+    flex-flow: row nowrap;
+    flex:1 1 0;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    
+}
+.intro-image{
+    display:flex;
+    height:200px;
+    width: 200px;
+    border: 2px solid pink;
+    overflow: hidden;
+    flex-basis:1;
+
+}
+.intro-info{
+    display:flex;
+    flex-flow: column nowrap;
+    flex:1;
+    flex-basis:1;
+    justify-content: center;
+
+
+
+}
+
+button{
+    width:100px;
+    height:30px;
+    font-size:10px;
+
+
+}
+.information{
+    display:flex;
+    flex:1;
+    flex-flow: column wrap;
+}
+.footer{
+    display:flex;
+
+}
